@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hard E-commerce | Gestão de Anúncios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700;1,900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo-wrap">
+        <img src="logo.jpg" alt="Hard E-commerce" class="logo-img"/>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#depoimentos">Clientes</a></li>
+      </ul>
+      <a href="https://wa.me/5521999999999?text=Ol%C3%A1%2C%20quero%20escalar%20meus%20an%C3%BAncios!" target="_blank" class="btn-nav-cta">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Falar com especialista
+      </a>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-lines">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero-inner container">
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <span class="red-pill">✦ Performance</span>
+          <span class="red-pill">✦ Resultados Reais</span>
+        </div>
+        <h1 class="hero-title">
+          SEU ANÚNCIO<br/>
+          <em class="red-em">VENDENDO</em><br/>
+          ENQUANTO VOCÊ<br/>DORME<span class="red-dot-big">.</span>
+        </h1>
+        <p class="hero-sub">A Hard E-commerce transforma seu investimento em tráfego pago em resultado real — mais vendas, menos desperdício, ROAS que você vai querer mostrar pro concorrente.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/5521999999999?text=Ol%C3%A1%2C%20quero%20escalar%20meus%20an%C3%BAncios!" target="_blank" class="btn-red">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Quero escalar meus anúncios
+          </a>
+          <a href="#resultados" class="btn-ghost">Ver resultados →</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="metrics-block">
+          <div class="m-card">
+            <span class="m-val">8.4<em>x</em></span>
+            <span class="m-lbl">ROAS Médio</span>
+            <span class="m-tag">↑ 212% vs anterior</span>
+          </div>
+          <div class="m-card accent">
+            <span class="m-val">R$4.2<em>M</em></span>
+            <span class="m-lbl">Faturamento Gerenciado</span>
+            <span class="m-tag">últimos 12 meses</span>
+          </div>
+          <div class="m-card">
+            <span class="m-val">140<em>+</em></span>
+            <span class="m-lbl">Clientes Ativos</span>
+            <span class="m-tag">e-commerces gerenciados</span>
+          </div>
+          <div class="m-card">
+            <span class="m-val">93<em>%</em></span>
+            <span class="m-lbl">Taxa de Retenção</span>
+            <span class="m-tag">clientes satisfeitos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>Meta Ads</span><b>✦</b>
+      <span>Google Ads</span><b>✦</b>
+      <span>TikTok Ads</span><b>✦</b>
+      <span>Pinterest Ads</span><b>✦</b>
+      <span>Shopify</span><b>✦</b>
+      <span>VTEX</span><b>✦</b>
+      <span>WooCommerce</span><b>✦</b>
+      <span>Performance Max</span><b>✦</b>
+      <span>CRO & Conversão</span><b>✦</b>
+      <span>Nuvemshop</span><b>✦</b>
+      <span>Meta Ads</span><b>✦</b>
+      <span>Google Ads</span><b>✦</b>
+      <span>TikTok Ads</span><b>✦</b>
+      <span>Pinterest Ads</span><b>✦</b>
+      <span>Shopify</span><b>✦</b>
+      <span>VTEX</span><b>✦</b>
+      <span>WooCommerce</span><b>✦</b>
+      <span>Performance Max</span><b>✦</b>
+      <span>CRO & Conversão</span><b>✦</b>
+      <span>Nuvemshop</span><b>✦</b>
+    </div>
+  </div>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-left">
+          <div class="tag-label">Quem somos</div>
+          <h2 class="sec-title">NÃO SOMOS<br/><span class="outline-text">AGÊNCIA.</span><br/>SOMOS PARCEIROS<br/>DE <span class="red-text">RESULTADO.</span></h2>
+          <a href="https://wa.me/5521999999999?text=Quero%20conhecer%20a%20Hard!" target="_blank" class="btn-red mt">Falar com a equipe →</a>
+        </div>
+        <div class="sobre-right">
+          <p class="sobre-lead">A Hard E-commerce nasceu da frustração com agências que prometem muito e entregam pouco. Somos uma equipe obcecada por dados, conversões e crescimento real.</p>
+          <p class="sobre-body">Cada centavo do seu orçamento é tratado como se fosse nosso. Porque no nosso modelo, <strong>crescemos junto com você.</strong></p>
+          <div class="sobre-nums">
+            <div class="snum">
+              <span class="snum-val">R$4.2M<sup>+</sup></span>
+              <span class="snum-lbl">em faturamento gerenciado</span>
+            </div>
+            <div class="snum">
+              <span class="snum-val">140<sup>+</sup></span>
+              <span class="snum-lbl">clientes ativos</span>
+            </div>
+            <div class="snum">
+              <span class="snum-val">8.4<sup>x</sup></span>
+              <span class="snum-lbl">ROAS médio</span>
+            </div>
+            <div class="snum">
+              <span class="snum-val">93<sup>%</sup></span>
+              <span class="snum-lbl">taxa de retenção</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="servicos" id="servicos">
+    <div class="servicos-top">
+      <div class="container">
+        <div class="tag-label light">O que fazemos</div>
+        <h2 class="sec-title light">GESTÃO COMPLETA DE<br/><span class="red-text">TRÁFEGO PAGO.</span></h2>
+      </div>
+    </div>
+    <div class="servicos-list">
+      <div class="sv-item">
+        <span class="sv-num">01</span>
+        <div class="sv-body">
+          <h3>Meta Ads</h3>
+          <p>Campanhas de Facebook e Instagram com segmentação cirúrgica. Criativos que param o scroll e copy que converte.</p>
+        </div>
+        <span class="sv-arrow">→</span>
+      </div>
+      <div class="sv-item">
+        <span class="sv-num">02</span>
+        <div class="sv-body">
+          <h3>Google Ads</h3>
+          <p>Search, Shopping e Performance Max. Capturamos a intenção de compra no momento certo.</p>
+        </div>
+        <span class="sv-arrow">→</span>
+      </div>
+      <div class="sv-item">
+        <span class="sv-num">03</span>
+        <div class="sv-body">
+          <h3>TikTok Ads</h3>
+          <p>O canal que explode em vendas para e-commerces. Estratégias nativas que vendem sem parecer anúncio.</p>
+        </div>
+        <span class="sv-arrow">→</span>
+      </div>
+      <div class="sv-item">
+        <span class="sv-num">04</span>
+        <div class="sv-body">
+          <h3>CRO & Landing Pages</h3>
+          <p>De nada adianta tráfego se a página não converte. Otimizamos cada etapa do funil.</p>
+        </div>
+        <span class="sv-arrow">→</span>
+      </div>
+      <div class="sv-item">
+        <span class="sv-num">05</span>
+        <div class="sv-body">
+          <h3>Dashboards & Relatórios</h3>
+          <p>Transparência total. Cada centavo investido e cada venda gerada em tempo real.</p>
+        </div>
+        <span class="sv-arrow">→</span>
+      </div>
+      <div class="sv-item">
+        <span class="sv-num">06</span>
+        <div class="sv-body">
+          <h3>Estratégia & Consultoria</h3>
+          <p>Antes de rodar anúncio, entendemos seu negócio. Estratégia sob medida para o seu nicho.</p>
+        </div>
+        <span class="sv-arrow">→</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS -->
+  <section class="resultados" id="resultados">
+    <div class="container">
+      <div class="res-header">
+        <div class="tag-label">Prova social</div>
+        <h2 class="sec-title">NÚMEROS QUE<br/><span class="red-text">FALAM POR SI.</span></h2>
+      </div>
+      <div class="res-grid">
+        <div class="res-card highlight-card">
+          <div class="res-num">+340<span>%</span></div>
+          <div class="res-desc">aumento de faturamento em 90 dias</div>
+          <div class="res-niche">Moda Feminina</div>
+        </div>
+        <div class="res-card">
+          <div class="res-num">12<span>x</span></div>
+          <div class="res-desc">ROAS em campanha de Black Friday</div>
+          <div class="res-niche">Eletrônicos</div>
+        </div>
+        <div class="res-card">
+          <div class="res-num">-58<span>%</span></div>
+          <div class="res-desc">redução no CPL sem perda de volume</div>
+          <div class="res-niche">Infoproduto</div>
+        </div>
+        <div class="res-card">
+          <div class="res-num">R$800<span>K</span></div>
+          <div class="res-desc">faturados em um único mês</div>
+          <div class="res-niche">Suplementos</div>
+        </div>
+      </div>
+      <div class="res-cta">
+        <a href="https://wa.me/5521999999999?text=Quero%20esses%20resultados!" target="_blank" class="btn-red large">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Quero esses resultados também
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESSO -->
+  <section class="processo" id="processo">
+    <div class="container">
+      <div class="tag-label">Como funciona</div>
+      <h2 class="sec-title">DO DIAGNÓSTICO<br/>AO <span class="red-text">RESULTADO.</span></h2>
+      <div class="steps-row">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <h3>Diagnóstico Gratuito</h3>
+          <p>Analisamos sua conta atual, concorrentes e mercado. Identificamos o que está travando suas vendas.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <h3>Estratégia Personalizada</h3>
+          <p>Plano de mídia sob medida com metas claras, prazos definidos e budget otimizado para o seu nicho.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <h3>Execução & Otimização</h3>
+          <p>Campanhas no ar com monitoramento diário. Dados guiam cada decisão — sem achismo.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">04</div>
+          <h3>Escala & Crescimento</h3>
+          <p>Com a base sólida, escalamos o que funciona. Mais volume, mesmo ROAS — ou melhor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="depoimentos" id="depoimentos">
+    <div class="container">
+      <div class="dep-header">
+        <div>
+          <div class="tag-label">Depoimentos</div>
+          <h2 class="sec-title">O QUE NOSSOS<br/>CLIENTES <span class="red-text">DIZEM.</span></h2>
+        </div>
+        <button id="toggleAdmin" class="btn-ghost">+ Adicionar depoimento</button>
+      </div>
+
+      <div class="admin-panel" id="adminPanel">
+        <h3>Novo Depoimento</h3>
+        <div class="form-grid">
+          <div class="form-group">
+            <label>Nome do cliente</label>
+            <input type="text" id="depNome" placeholder="Ex: João Silva"/>
+          </div>
+          <div class="form-group">
+            <label>Empresa / Nicho</label>
+            <input type="text" id="depEmpresa" placeholder="Ex: Loja de Moda"/>
+          </div>
+          <div class="form-group full">
+            <label>Depoimento</label>
+            <textarea id="depTexto" rows="3" placeholder="O que o cliente disse..."></textarea>
+          </div>
+          <div class="form-group">
+            <label>Resultado obtido</label>
+            <input type="text" id="depResultado" placeholder="Ex: +300% ROAS"/>
+          </div>
+          <div class="form-group">
+            <label>Nota (1–5)</label>
+            <input type="number" id="depNota" min="1" max="5" value="5"/>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button id="salvarDep" class="btn-red">Salvar depoimento</button>
+          <button id="cancelarDep" class="btn-ghost">Cancelar</button>
+        </div>
+        <div id="formMsg" class="form-msg"></div>
+      </div>
+
+      <div id="depLoading" class="dep-loading">Carregando depoimentos...</div>
+      <div class="dep-grid" id="depGrid"></div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-final" id="contato">
+    <div class="container">
+      <div class="cta-wrap">
+        <div class="cta-left">
+          <h2 class="cta-title">PRONTO PARA<br/><span class="red-text">ESCALAR</span><br/>SEU E-COMMERCE?</h2>
+          <p>Fale agora com um especialista e descubra como a Hard E-commerce pode transformar seus anúncios em máquina de vendas.</p>
+        </div>
+        <div class="cta-right">
+          <a href="https://wa.me/5521999999999?text=Ol%C3%A1%2C%20quero%20uma%20an%C3%A1lise%20gratuita!" target="_blank" class="btn-red large block">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Análise gratuita agora
+          </a>
+          <p class="cta-disclaimer">Sem compromisso. Resultado em 30 dias ou devolvemos seu investimento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOAT WA -->
+  <a href="https://wa.me/5521999999999?text=Ol%C3%A1%2C%20vim%20pelo%20site!" target="_blank" class="wa-float" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="logo.jpg" alt="Hard E-commerce" class="footer-logo"/>
+          <p>Gestão profissional de anúncios para e-commerces que querem crescer de verdade.</p>
+          <a href="https://wa.me/5521999999999" target="_blank" class="footer-wa">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            (21) 99999-9999
+          </a>
+        </div>
+        <div class="footer-cols">
+          <div>
+            <h4>Serviços</h4>
+            <ul>
+              <li><a href="#servicos">Meta Ads</a></li>
+              <li><a href="#servicos">Google Ads</a></li>
+              <li><a href="#servicos">TikTok Ads</a></li>
+              <li><a href="#servicos">CRO & Landing Pages</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Empresa</h4>
+            <ul>
+              <li><a href="#sobre">Sobre nós</a></li>
+              <li><a href="#resultados">Resultados</a></li>
+              <li><a href="#depoimentos">Clientes</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Hard E-commerce. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
